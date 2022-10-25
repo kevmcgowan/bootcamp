@@ -1,0 +1,33 @@
+.parentContainer {
+display: flex;
+background-color: rgb(255, 255, 255);
+padding: 15px;
+flex-direction: column;
+}
+
+.flexChild {
+background-color: rgb(189, 58, 167);
+padding: 10px;
+margin: 10px;
+height: 200px;
+}
+
+/* Column Styles*/
+.columnOne {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    height: 600px;
+    padding: 50px;
+    margin: 15px;
+}
+
+/* Nested column styles*/
+.topRow {
+    height: 50%;
+    background-color: rgb(131, 131, 179);
+    display: flex;
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+}
