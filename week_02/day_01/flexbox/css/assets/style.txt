@@ -9,8 +9,6 @@ nav li {
     margin-left: 10px;
 }
 
-
-
 form {
     width: 400px;
     margin: 0 auto;
