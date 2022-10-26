@@ -29,16 +29,16 @@ header h3 {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display: flex;
+    flex: 1;
 }
-/*.left-content {
+.left-content {
     flex: 1;
 }
 .right-content {
     flex: 2;
 }
-*/
+
 footer {
     background: #ccc;
     color: #fff;
