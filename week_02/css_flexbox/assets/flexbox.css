@@ -10,6 +10,7 @@ background-color: rgb(189, 58, 167);
 padding: 10px;
 margin: 10px;
 height: 200px;
+flex-direction: column;
 }
 
 /* Column Styles*/
@@ -28,6 +29,23 @@ height: 200px;
     background-color: rgb(131, 131, 179);
     display: flex;
     width: 65%;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+}
+
+.columnTwo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 122, 153);
+    height: 600px;
+    padding: 50px;
+    margin: 15px;
+}
+.middleRow {
+    height: auto;
+    background-color: beige;
+    display: flex;
+    width: 60%;
+    align-items: flex-end;
+    justify-content: right;
 }
