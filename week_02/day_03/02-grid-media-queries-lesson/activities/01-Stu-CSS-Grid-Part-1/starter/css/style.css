@@ -1,0 +1,131 @@
+/*Grid CSS ID*/
+
+#heroGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-areas:
+    "sec-1 sec-1 sec-1 sec-2"
+    "sec-1 sec-1 sec-1 sec-2"
+    "sec-1 sec-1 sec-1 sec-2"
+    "sec-1 sec-1 sec-1 sec-3";
+    height: 60vh;
+    grid-template-columns: 26.6% 26.6% 26.6% 20%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Grid CSS */
+.images-styles {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#featuredProduct {
+  grid-area: sec-1;
+  background-image: url("../images/furniture1.png"); 
+}
+#headline {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  background-color: rgba(254, 245, 245, 0.774);
+  border-bottom: 5px solid orangered;
+  padding: 20px;
+}
+
+#secondaryProduct {
+  grid-area: sec-2;
+  background-image: url(../images/furniture2.png); 
+}
+
+#CTA {
+  grid-area: sec-3;
+  background-image: url("../images/woodbg.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main {
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Category Grid CSS */
+heroGridID {
+  
+}
+
+
+
+/* Navigation CSS */
+/* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.icons img {
+  margin: 15px;
+  cursor: pointer;
+}
+.highlight {
+  color: #FF6200;
+  font-weight: 700;
+}
+
+/* Typography CSS */
+
+h2 {
+  font-size: 60px;
+  margin: 0px 0px;
+  color: #FF6200;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+
+#headline p {
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #636364;
+}
