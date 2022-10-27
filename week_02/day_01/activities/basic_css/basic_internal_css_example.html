@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic CSS Example</title>
+
+    <!-- Introducing the Style Tag!-->
+    <!-- ==========================-->
+
+    <!-- Now you can cusotmise the loook of your sites. Each rile in the style tag changes the appearance of its associated element
+    (notice how each rule names an element from the HTML body)-->
+
+    <style>
+        /*
+                                Note: Commenting is a bit different in CSS.
+                                They start with a forward-slash + asterix
+                                and end with an asteriz and forward-slash.*/
+        /* h1 heading tag*/
+        h1 {
+            /* Put a 15 pixel margin at the bottom of the heading.*/
+            margin: 15px;
+            /* Change the size of your font to 60 pixels high.*/
+            font-size: 60px;
+            /* This will colour the heading font white.*/
+            color: white;
+            /* Align the text to the centre of the of its enclosing element.*/
+            text-align: center; /* or left, right, end, start, justify and others*/
+            /* Underline the text.*/
+            text-decoration: underline; /*and other types in the pop up menu*/
+            /* The background of teh heading element will now be coloured.*/
+            background-color: black;
+        }
+        /* h2 heading tags.*/
+
+        h2 {
+        /*put a 15 pixel margin at the top and bottom of all h2 headings*/
+            margin-top: 15px;
+            margin-bottom: 15;
+            font-size: 40px;
+            text-align: center;
+        }
+        /*h3 heading tags*/
+        h3 {
+            margin: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        /* All image tags.*/
+        img {
+            /* Center a blocl element in the middle of its enclosing tag.
+            When you use the auto rule on both left & right margins, 
+            your browser will do the maths neccessary to center the block.*/
+            margin-left: auto;
+            margin-right: auto;
+            /* Block display*/
+            display: block;
+        }
+        /* All p tags*/
+        p{
+            text-align: center;
+            font-size: 20px;
+            /*Bold the text*/
+            font-weight: bold;
+        }
+        /* All unordered tags*/
+        ul {
+            text-align: center;
+            font-size: 35px;
+            /*Give an element a solid border*/
+            border-style: solid;
+            /*Render the border 5 pixels*/
+            border-width: 5px;
+            /*Include bullts in the content flow*/
+            /*More inf here: https://www.w3schools.com/cssref/pr_list-style-position.asp*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Awesome Header</h1>
+    <h2>Smaller Header</h2>
+    <h3>Even Smaller Header</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequatur unde aut dolores odio hic,accuasamus rescusandae
+        ipsam illum enim voluptatibus obcaecati totam tempora eum quod sapiente. Corporis, quidem, culpa</p>
+    <img src="https://pbs.twing.com/media/BsgYfMQCQAAWVKH.jpg" alt="Awesome" width="25%">
+
+    <h3>Menu Links</h3>
+    <ul>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="https://facebook.com">FaceBook</a></li>
+        <li><a href="https://twitter">twitter</a></li>
+    </ul>
+    
+</body>
+
+</html>
