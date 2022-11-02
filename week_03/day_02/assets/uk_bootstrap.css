@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.justifiy-space-between {
+    justify-content: space-between;
+}
+.col {
+    flex: 1;
+}
+
+.col-4 {
+    flex: 0 0 33.333%;
+}
+ .col-6 {
+    flex: 0 0 50%;
+ }
+
+ .col-2 {
+    flex: 0 0 16/666%;
+ }

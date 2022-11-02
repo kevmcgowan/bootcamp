@@ -1,0 +1,59 @@
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  animation: colors 3s infinite alternate;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ANIMATIONS */
+@keyframes colors {
+  from {
+    background: orange;
+  }
+  to {
+    background: blue;
+  }
+}
+
+/* GLOBAL CLASSES */
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.col {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 0 0 16.6666%;
+}
+
+.col-4 {
+  flex: 0 0 33.3333%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+/* CUSTOM STYLES */
+.main-header {
+
+}
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+  
+}
