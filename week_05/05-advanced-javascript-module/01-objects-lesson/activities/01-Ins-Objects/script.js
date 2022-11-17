@@ -27,6 +27,8 @@ hobbies.splice(startIndex, 0, 'one more');
 console.log(hobbies)
 
 
+var hobbies = ['pickleball', 'fishing', 'cooking']
+
 var data = {
   name: 'JD',
   age: 42,
@@ -39,3 +41,11 @@ var data = {
 
 
 console.log(hobbies)
+
+
+
+
+
+for (var i = 0; i < data.hobbies.length; i++) {
+  console.log(data.hobbies[i]);
+}
