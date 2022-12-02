@@ -30,5 +30,5 @@ for (let items of allH4) {
     // items.style.fontWeight = 'bold';
     // items.style.paddingLeft = '10px';
     // items.style.margin = '0';
-    items.setAttribute('style', color = 'blue', fontSize = '30px', fontWeight = 'bold');
+    items.setAttribute('style', 'color:blue', 'fontSize:30px', 'fontWeight:bold;');
 }
