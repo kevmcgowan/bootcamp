@@ -14,7 +14,9 @@ var listItems = document.querySelectorAll('.main ul li');
 // console.log(h1);
 
 h1.innerText = 'something else';
+
 h1.style.backgroundColor = 'red';
+
 li.style.backgroundColor = 'orange';
 
 var count = 0

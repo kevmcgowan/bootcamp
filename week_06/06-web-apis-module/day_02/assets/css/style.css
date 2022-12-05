@@ -1,0 +1,29 @@
+body {
+    font-size: 3rem;
+}
+/* #output div {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+#output div:hover {
+    background-color: tomato;
+}
+
+#output div h3 {
+    font-size: 2rem;
+}
+
+#output div p {
+    font-size: 1.3rem;
+    font-weight: bold;
+} */
