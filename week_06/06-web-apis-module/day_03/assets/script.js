@@ -32,6 +32,15 @@
 
 
 var link = document.querySelector('#link');
+var homeLink = document.getElementById('home-link');
+
+homeLink.addEventListener('click', function (event) {
+
+    if (window.location.pathname.includes('index')) {
+        event.preventDefault();
+    }
+});
+
 
 link.addEventListener('click', function(event) {
     event.preventDefault();
