@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.wrapper {
+    padding: 25px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+/* need to change the size of the time stamp box and add an event listener for the button click */
+
+#btn {
+    display: inline-block;
+    justify-self: right;
+    background-color: #28ad28;
+    color: #ffff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 20px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 10px red;
+    transform: scale(1.2);
+}
+
+ol {
+    padding-left: 20px;
+}
+ol li {
+    padding: 5px;
+    color: #000;
+}
+
+.cross_line {
+    text-decoration: line-through;
+}
+
+li:hover{
+    cursor: pointer;
+}

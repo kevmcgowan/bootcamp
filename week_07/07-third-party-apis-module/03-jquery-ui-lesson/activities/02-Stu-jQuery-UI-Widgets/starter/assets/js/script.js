@@ -30,7 +30,45 @@ var handleFormSubmit = function (event) {
 formEl.on('submit', handleFormSubmit);
 
 // Add Autocomplete widget here
-//
 
-// Add Datepicker widget here
-//
+  var availableTags = [
+    "Data",
+    "Coding",
+    "jQuery",
+    "CSS",
+  ];
+
+  nameInputEl.autocomplete({
+    source: availableTags
+  });
+
+
+
+dateInputEl.datepicker();
+
+skillsListEl.sortable( {
+  update: function() {
+    var item = $('#skills-list li');
+    var skills = [];
+
+    item.each(function () {
+      var li = $(this);
+
+      skills.push(li.text());
+    })
+
+    localStorage.setItem('skills', JSON.stringify(skills));
+  }
+});
+
+
+
+var date = new Date();
+var weekdays = ['monday', 'tuesday', 'wed']
+var previousDate = moment('18/12/1985');
+
+//  using moment
+
+var date = moment();
+
+moment().format("MMM Do YYYY"); 
