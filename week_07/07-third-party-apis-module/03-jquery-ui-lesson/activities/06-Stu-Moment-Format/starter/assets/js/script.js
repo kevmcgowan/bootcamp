@@ -1,6 +1,6 @@
 // Use Moment.js to format the date and assign to the declared variable.
 // TODO: 1. What is your graduation date in the following format: Jan 1st, 1999?
-var gradDate = moment('Jan 1st, 1999', 'MMM Do YYYY').format("MMM Do YYYY");
+var gradDate = moment('Feb 24th, 2022', 'MMM Do, YYYY').format("MMM Do, YYYY");
 
 $("#1a").text(gradDate);
 
@@ -19,10 +19,20 @@ var time = moment().format('MMMM Do YYYY, hh:mm:ss');
 $("#4a").text(time);
 
 // TODO: 5. What is the current Unix timestamp?
-var unix = moment.unix(	1670584906);
+var unix = moment.unix();
 $("#5a").text(unix);
 
 // TODO: 6. Parse the following Unix timestamp, 1318781876, and convert into any time/date format.
 var unixFormat = moment.unix(1318781876).format("dddd, Do MMM YYYY, hh:mm:ss");
 $("#6a").text(unixFormat);
+
+var startOfBusiness = moment(09, 'HH').format('ddd Do hh:mm');
+
+
+while(startOfBusiness.hour()<18) {
+    console.log(startOfBusiness.format('dd Do HH:mm'));
+
+    startOfBusiness.add(1, 'hours');
+}
+
 
