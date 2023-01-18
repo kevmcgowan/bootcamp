@@ -12,7 +12,7 @@ var data = {
 
         this.name = capitalize();
 
-        console.log(this.name);
+        console.log(this.hobbies);
     }
 };
 data.printName();
