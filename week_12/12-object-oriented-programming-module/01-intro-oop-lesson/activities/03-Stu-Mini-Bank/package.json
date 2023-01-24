@@ -1,0 +1,15 @@
+{
+  "name": "03-stu-mini-bank",
+  "version": "1.0.0",
+  "description": "In this activity, you will use objects to create a mini banking application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^19.4.0"
+  }
+}

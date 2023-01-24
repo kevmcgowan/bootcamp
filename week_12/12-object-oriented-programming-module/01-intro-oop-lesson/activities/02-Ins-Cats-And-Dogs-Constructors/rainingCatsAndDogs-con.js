@@ -28,3 +28,37 @@ const massHysteria = (dogs, cats) => {
 };
 
 massHysteria(dogs, cats);
+
+
+// function Person(person_name) {
+//   this.name = person_name;
+//   this.getName = function () {
+//     console.log(this.name);
+//   }
+// }
+
+// const bob = new Person('Bob');
+// const jd = new Person('JD');
+
+// bob.getName();
+// jd.getName();
+
+
+function Person(person_name) {
+  this.name = person_name;
+  this.setName = (new_name) => {
+    this.name = new_name;
+  }
+}
+Person.prototype.getName = function () {
+  console.log(this.name);
+}
+
+const bob = new Person('Bob');
+const jd = new Person('JD');
+const person1 = new Person('km');
+const person2 = new Person('km');
+const person3 = new Person('km');
+
+bob.getName();
+jd.getName();
