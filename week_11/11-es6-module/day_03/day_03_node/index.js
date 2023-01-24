@@ -1,23 +1,23 @@
 const fs = require('fs');
 
-fs.appendFile('./tasks.txt', '\n apple', (error) => {
-    if (error) {
-        console.log(error);
-    } 
-});
-
-
-
-
-
-// fs.writeFile('./tasks.txt', 'orange', (error) => {
+// fs.appendFile('./tasks.txt', '\n pear', (error) => {
 //     if (error) {
 //         console.log(error);
-//     } else {
-        
-//         console.log(error);
-//     }
+//     } 
 // });
+
+
+
+
+
+fs.writeFile('./tasks.txt', 'banana', (error) => {
+    if (error) {
+        console.log(error);
+    } else {
+        
+        console.log(error);
+    }
+});
 
 
 
