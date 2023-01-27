@@ -89,10 +89,14 @@ DigitalPal.prototype.destroyFurniture = function() {
     }
 };
 
+DigitalPal.prototype.butNewFurniture = function() {
+    this.houseCondition =+ 50;
+    console.log("Are you sure about that?");
+}
 
 
-
-const teddy = new DigitalPal('Teddy');
-teddy.sleep();
+const dog = new DigitalPal('dog');
+const cat = new DigitalPal('cat');
+dog.sleep();
 
 

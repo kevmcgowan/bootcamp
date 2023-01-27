@@ -1,8 +1,8 @@
 {
-  "name": "12-object-oriented-programming-module",
+  "name": "day_03_classes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Animal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^29.4.1",
-    "node": "^19.4.0"
+    "node": "^18.13.0"
   }
 }
